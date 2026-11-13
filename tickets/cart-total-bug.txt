@@ -1,0 +1,17 @@
+Title: Page price and cart total disagree
+Store: Ticket-to-Test Demo Store (http://localhost:4174)
+True price: $25.00
+
+What I did:
+1. Opened the store. The mug is listed at $20.00.
+2. Set quantity to 2 and clicked "Add to cart".
+
+What I expected:
+2 mugs at the listed price should cost $40.00.
+
+What happened:
+The cart total showed $50.00.
+
+Notes:
+The page says $20.00. The code charges $25.00. They disagree by $5 per mug.
+The true price is $25.00. The listed price and the charged price must match.
